@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="100%" stop-color="#2a1a3a"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.08"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <rect width="800" height="1000" filter="url(#grain)" opacity="0.5"/>
+  <g opacity="0.15">
+    <line x1="0" y1="0" x2="800" y2="0" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="24" x2="800" y2="24" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="48" x2="800" y2="48" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="72" x2="800" y2="72" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="96" x2="800" y2="96" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="120" x2="800" y2="120" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="144" x2="800" y2="144" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="168" x2="800" y2="168" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="192" x2="800" y2="192" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="216" x2="800" y2="216" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="240" x2="800" y2="240" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="264" x2="800" y2="264" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="288" x2="800" y2="288" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="312" x2="800" y2="312" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="336" x2="800" y2="336" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="360" x2="800" y2="360" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="384" x2="800" y2="384" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="408" x2="800" y2="408" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="432" x2="800" y2="432" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="456" x2="800" y2="456" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="480" x2="800" y2="480" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="504" x2="800" y2="504" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="528" x2="800" y2="528" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="552" x2="800" y2="552" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="576" x2="800" y2="576" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="600" x2="800" y2="600" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="624" x2="800" y2="624" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="648" x2="800" y2="648" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="672" x2="800" y2="672" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="696" x2="800" y2="696" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="720" x2="800" y2="720" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="744" x2="800" y2="744" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="768" x2="800" y2="768" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="792" x2="800" y2="792" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="816" x2="800" y2="816" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="840" x2="800" y2="840" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="864" x2="800" y2="864" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="888" x2="800" y2="888" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="912" x2="800" y2="912" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="936" x2="800" y2="936" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="960" x2="800" y2="960" stroke="#ffffff" stroke-width="1"/><line x1="0" y1="984" x2="800" y2="984" stroke="#ffffff" stroke-width="1"/>
+  </g>
+  <text x="50%" y="46%" font-family="monospace" font-size="120" text-anchor="middle" fill="#ffffff" opacity="0.9">◈</text>
+  <text x="50%" y="60%" font-family="monospace" font-size="22" letter-spacing="2" text-anchor="middle" fill="#e6f7f5" opacity="0.85">CLASSIFIED DATA STREAM</text>
+  <text x="50%" y="65%" font-family="monospace" font-size="14" text-anchor="middle" fill="#ff2a6d" opacity="0.7">PLACEHOLDER — REPLACE ME</text>
+  <rect x="0" y="0" width="800" height="1000" fill="none" stroke="#00e5cc" stroke-opacity="0.25" stroke-width="6"/>
+</svg>
